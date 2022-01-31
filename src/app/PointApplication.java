@@ -11,7 +11,7 @@ public class PointApplication {
         PointController controller = new PointController();
 
         System.out.println(point +" add X+1");
-        controller.addY(point);
+        controller.addX(point);
         System.out.println(point + " add Y+1");
         controller.addY(point);
         System.out.println(point + " add X-1");
